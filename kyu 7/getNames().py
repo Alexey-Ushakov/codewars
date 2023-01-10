@@ -5,6 +5,7 @@ def itemgetter(item):
 def get_names(data):
     return list(map(itemgetter, data))
 
+
 data = [
     {'name': 'Joe', 'age': 20},
     {'name': 'Bill', 'age': 30},
